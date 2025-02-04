@@ -101,3 +101,27 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (min-width: 1024px) {
+    /* Desktop styles here */
+    .color-options{
+        
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 20px;
+            max-width: 1200px;
+           
+            margin: 0 auto;
+        
+
+
+        
+
+    }
+
+    section{
+        padding: 3em 2em;
+    
+}
+}
