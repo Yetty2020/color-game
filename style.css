@@ -40,7 +40,8 @@ section{
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
+    gap: 3em;
+    
 }
 
 .NewGame{
@@ -135,6 +136,10 @@ footer{
 
     section{
         padding: 2em;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
         /* height: 100vh;
         weight: 100vw; */
     
