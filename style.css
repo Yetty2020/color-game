@@ -84,6 +84,11 @@ section{
     line-height: 2;
 }
 
+.color-div{
+    width: 200px;
+    height: 100px;
+}
+
 
 h5{
     text-align: center;
@@ -108,7 +113,7 @@ footer{
         
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
+            gap: 20px;
             padding: 20px;
             max-width: 1200px;
            
@@ -120,8 +125,20 @@ footer{
 
     }
 
+    body{
+        height: 100vh;
+        overflow: hidden;
+        
+    }
+
     section{
-        padding: 3em 2em;
+        padding: 2em;
+        height: 100vh;
+        weight: 100vw;
     
+}
+.color-div{
+    width: 250px;
+    height: 100px;
 }
 }

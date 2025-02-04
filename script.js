@@ -46,8 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const colorDiv = document.querySelector(".color-div");
     colorDiv.style.backgroundColor = mainColor;
     
-    colorDiv.style.width = "200px";
-    colorDiv.style.height = "200px";
+   
     
     createColorButtons();
 });
