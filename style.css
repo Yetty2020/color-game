@@ -39,7 +39,7 @@ section{
     padding: 1.2em 0.8em;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     justify-content: space-between;
 }
 
@@ -135,8 +135,8 @@ footer{
 
     section{
         padding: 2em;
-        height: 100vh;
-        weight: 100vw;
+        /* height: 100vh;
+        weight: 100vw; */
     
 }
 .color-div{
