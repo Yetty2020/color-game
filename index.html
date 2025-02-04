@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+<header>
+    <h5 data-testid="gameInstructions">Guess the color behind the box</h5>
+    <div data-testid="score" class="gameCountDiv"></div>
+</header>
+    
+   
+   <div class="body-center">
+    <div data-testid="colorBox" class="color-div"></div>
+    <div data-testid="gameStatus" class="message-div"><p class="message"></p></div>
+    <div data-testid="colorOption" class="color-options">
+   </div>
+   
+
+    
+        <!-- color-button - className for each button -->
+    </div>
+    <footer>
+        <div class="highScoreDiv"></div>
+        <button data-testid="newGameButton" type="button" class="NewGame">New Game</button>
+
+    </footer>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

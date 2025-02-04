@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #CCD8E9;
+    color: #09192C;
+   
+  }
+  
+
+/* styling for each button */
+
+.color-button{
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+
+}
+
+.color-button:hover, .NewGame:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.color-button:active, .NewGame:active{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+section{
+    padding: 1.2em 0.8em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.NewGame{
+   
+    font: inherit;
+    padding: 0.9em;
+    color: #CCD8E9;
+    background-color: #09192C;
+    border: 1px solid #CCD8E9;
+    border-radius: 7px;
+
+}
+
+.color-div{
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+.color-options{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.message{
+    text-align: center;
+}
+
+.body-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+
+
+}
+.gameCountDiv, .highScoreDiv{
+    text-align: center;
+    font-weight: 600;
+    line-height: 2;
+}
+
+
+h5{
+    text-align: center;
+    line-height: 1.5;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7em;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
